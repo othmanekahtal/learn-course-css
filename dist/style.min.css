@@ -98,13 +98,26 @@ body header .content__header .content a.btn1 {
 
 body header .content__header .content a.btn1:hover {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-  background-color: #18ee18;
+  background-color: #8ff78f;
 }
 
 body header .content__header .content a.btn1:active {
   border-color: #00b64c;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
-  background-color: #18ee18;
+  background-color: #48f148;
+}
+
+body header .content__header .content a.btn2 {
+  background-color: #ff6666;
+}
+
+body header .content__header .content a.btn2:hover {
+  background-color: #ff4d4d;
+}
+
+body header .content__header .content a.btn2:active {
+  background-color: #ff3333;
+  border-color: red;
 }
 
 body header .content__header .img_content {

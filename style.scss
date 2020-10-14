@@ -82,16 +82,24 @@ body {
 
           &:hover {
             box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-            background-color: rgb(24, 238, 24);
+            background-color: lighten(rgb(24, 238, 24), 25%);
           }
           &:active {
             border-color: rgb(0, 182, 76);
             box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
-            background-color: rgb(24, 238, 24);
+            background-color: lighten(rgb(24, 238, 24), 10%);
           }
         }
         a.btn2 {
           @extend %btns;
+          background-color: lighten(red, 20%);
+          &:hover {
+            background-color: lighten(red, 15%);
+          }
+          &:active {
+            background-color: lighten(red, 10%);
+            border-color: red;
+          }
         }
       }
       & .img_content {
