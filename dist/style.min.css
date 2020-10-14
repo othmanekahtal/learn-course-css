@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f0f0;
+  color: #000822;
+  font-weight: 400;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+body header {
+  max-width: 1100px;
+  padding: 0 100px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: white;
+}
+
+body header nav {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body header nav .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000822;
+}
+
+body header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+body header nav ul li {
+  margin: 0 2.5px;
+}
+
+body header nav ul li a {
+  color: #0c1a3d;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  transition: all 0.45s ease-in;
+  font-weight: bold;
+}
+
+body header nav ul li a:hover {
+  background-color: #73f077;
+  color: white;
+}
+
+body header nav ul li a:active {
+  background-color: #0a0221;
+  color: #73f077;
+}
+
+body header .content__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body header .content__header .content {
+  flex-basis: 50%;
+}
+
+body header .content__header .content h1 {
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+
+body header .content__header .content a.btn1, body header .content__header .content a.btn2 {
+  margin: 15px 15px 0 0;
+  padding: 5px 15px;
+  border-radius: 35px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+  transition: all 0.45s ease-out;
+  font-weight: bold;
+}
+
+body header .content__header .content a.btn1 {
+  background-color: #73f077;
+}
+
+body header .content__header .content a.btn1:hover {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  background-color: #18ee18;
+}
+
+body header .content__header .content a.btn1:active {
+  border-color: #00b64c;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+  background-color: #18ee18;
+}
+
+body header .content__header .img_content {
+  flex-basis: 45%;
+}
