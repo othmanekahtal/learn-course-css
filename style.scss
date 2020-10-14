@@ -1,4 +1,5 @@
 @import "scss/vars";
+@import "scss/functions";
 * {
   padding: 0;
   margin: 0;
@@ -70,15 +71,16 @@ body {
           border-radius: 35px;
           display: inline-block;
           text-decoration: none;
-          color: white;
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
           border: 2px solid transparent;
           transition: all 0.45s ease-out;
           font-weight: bold;
         }
         a.btn1 {
+          $background-color-btn: green;
           @extend %btns;
-          background-color: $header-back-anchor;
+          background-color: $background-color-btn;
+          color: text-color($background-color-btn);
 
           &:hover {
             box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
@@ -92,12 +94,17 @@ body {
         }
         a.btn2 {
           @extend %btns;
-          background-color: lighten(red, 20%);
+          $background-color-btn: rgb(100, 140, 0);
+          background-color: $background-color-btn;
+          color: text-color($background-color-btn);
+
           &:hover {
             background-color: lighten(red, 15%);
+            color: text-color($background-color-btn);
           }
           &:active {
             background-color: lighten(red, 10%);
+            color: text-color($background-color-btn);
             border-color: red;
           }
         }

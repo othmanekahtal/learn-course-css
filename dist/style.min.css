@@ -85,7 +85,6 @@ body header .content__header .content a.btn1, body header .content__header .cont
   border-radius: 35px;
   display: inline-block;
   text-decoration: none;
-  color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   border: 2px solid transparent;
   transition: all 0.45s ease-out;
@@ -93,7 +92,8 @@ body header .content__header .content a.btn1, body header .content__header .cont
 }
 
 body header .content__header .content a.btn1 {
-  background-color: #73f077;
+  background-color: green;
+  color: #ffffff;
 }
 
 body header .content__header .content a.btn1:hover {
@@ -108,15 +108,18 @@ body header .content__header .content a.btn1:active {
 }
 
 body header .content__header .content a.btn2 {
-  background-color: #ff6666;
+  background-color: #648c00;
+  color: #ffffff;
 }
 
 body header .content__header .content a.btn2:hover {
   background-color: #ff4d4d;
+  color: #ffffff;
 }
 
 body header .content__header .content a.btn2:active {
   background-color: #ff3333;
+  color: #ffffff;
   border-color: red;
 }
 
